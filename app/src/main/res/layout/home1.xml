@@ -1,0 +1,120 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home"
+    android:layout_width="414dp"
+    android:layout_height="1868dp"
+    android:clipToOutline="true"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:id="@+id/status_bar"
+        android:layout_width="390dp"
+        android:layout_height="44dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+        android:clipToOutline="true"
+        android:background="@drawable/statusbar" />
+
+
+    <View
+        android:id="@+id/bella_olonj"
+        android:layout_width="141dp"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="1693dp"
+        android:background="@drawable/PfpImage" />
+
+    <RelativeLayout
+        android:id="@+id/author_prof"
+        android:layout_width="287dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="190dp"
+        android:background="@drawable/rectangle8" />
+
+    <View
+        android:id="@+id/photo"
+        android:layout_width="58dp"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="331dp"
+        android:layout_marginTop="186dp"
+        android:background="@drawable/PfpImage" />
+
+    <RelativeLayout
+        android:id="@+id/key_feature"
+        android:layout_width="376dp"
+        android:layout_height="156dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="1412dp"
+        android:background="@drawable/keyfeature"
+        android:elevation="4dp" />
+
+    <RelativeLayout
+        android:id="@+id/film_online"
+        android:layout_width="185dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="472dp"
+        android:background="@drawable/film_onlinecatalougebutto" />
+
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="186.83dp"
+        android:height="26.83dp"
+        android:viewportWidth="186.83"
+        android:viewportHeight="26.83"
+        >
+        <group>
+            <clip-path
+                android:pathData="M8.22857 0.914286H178.6C182.64 0.914286 185.914 4.189 185.914 8.22857V18.6C185.914 22.6396 182.64 25.9143 178.6 25.9143H8.22857C4.189 25.9143 0.914286 22.6396 0.914286 18.6V8.22857C0.914286 4.189 4.189 0.914286 8.22857 0.914286Z"
+                />
+        </group>
+        <path
+            android:pathData="M8.22857 0.914286H178.6C182.64 0.914286 185.914 4.189 185.914 8.22857V18.6C185.914 22.6396 182.64 25.9143 178.6 25.9143H8.22857C4.189 25.9143 0.914286 22.6396 0.914286 18.6V8.22857C0.914286 4.189 4.189 0.914286 8.22857 0.914286Z"
+            android:strokeWidth="1.83"
+            android:strokeColor="#000000"
+            />
+    </vector>
+
+
+    <RelativeLayout
+        android:id="@+id/film_online"
+        android:layout_width="462.87dp"
+        android:layout_height="231dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="497dp"
+        android:layout_marginBottom="1140dp"
+        android:background="@drawable/film_onlineviewmore" />
+
+    <RelativeLayout
+        android:id="@+id/all_panel"
+        android:layout_width="575dp"
+        android:layout_height="43dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="244dp"
+        android:background="@drawable/allpanel" />
+
+</RelativeLayout>
+
+
